@@ -4,16 +4,17 @@ import browserdriverssetup.BrowserDriverSetUp;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobjects.LogOut;
+import pageobjects.NewEmployee;
 
-public class LogOutTest extends BrowserDriverSetUp {
-    LogOut logOut = null;
+public class NewEmployeeTest extends BrowserDriverSetUp {
+    NewEmployee employee = null;
+
     @BeforeMethod
     public void initializeElements(){
-        logOut = PageFactory.initElements(driver, LogOut.class);
+        employee = PageFactory.initElements(driver, NewEmployee.class);
     }
     @Test
-    public void logOutTest(){
-        logOut.loggingOut();
+    public void LogInTest(){
+        employee.addNewEmployee();
     }
 }

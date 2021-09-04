@@ -15,13 +15,16 @@ public class LogOut {
     @FindBy(how = How.ID, using = "userDropdown")
     WebElement dropDown;
     @FindBy(how = How.XPATH, using = "/html/body/nav/ul/li/div/a[2]/span")
-    WebElement logOut;
+    WebElement logOutButton;
+    @FindBy(how = How.XPATH, using = "/html/body/div[3]/div/div/div[3]/form/button[2]")
+    WebElement logOutProfile;
 
-    public void logOut(){
+    public void loggingOut(){
         email.sendKeys("admin");
         password.sendKeys("123456");
         login.click();
         dropDown.click();
-        logOut.click();
+        logOutButton.click();
+        logOutProfile.click();
     }
 }

@@ -11,18 +11,18 @@ public class HomePage {
     WebElement password;
     @FindBy(how = How.CSS, using = "body > div > div > div > div > div > div > div > div > form > button")
     WebElement login;
-    @FindBy(how = How.XPATH, using = "/html/body/nav/span")
-    WebElement banner;
+//    @FindBy(how = How.XPATH, using = "/html/body/nav/span")
+//    WebElement banner;
 
     public void logIn(){
         email.sendKeys("admin");
         password.sendKeys("123456");
         login.click();
     }
-    public String findBanner(){
-        String actual = banner.getText();
-        System.out.println(actual);
-        return actual;
-    }
+//    public String findBanner(){
+//        String actual = banner.getText();
+//        System.out.println(actual);
+//        return actual;
+//    }
 
 }

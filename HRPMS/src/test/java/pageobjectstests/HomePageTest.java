@@ -18,10 +18,10 @@ public class HomePageTest extends BrowserDriverSetUp {
     public void LogInTest(){
         homePage.logIn();
     }
-    public void bannerTest(){
-        homePage.logIn();
-        String actualValue = homePage.findBanner();
-        String expectedValue = "Izaan Human Resources Management System";
-        Assert.assertEquals(actualValue, expectedValue);
-    }
+//    public void bannerTest(){
+//        homePage.logIn();
+//        String actualValue = homePage.findBanner();
+//        String expectedValue = "Izaan Human Resources Management System";
+//        Assert.assertEquals(actualValue, expectedValue);
+//    }
 }

@@ -44,10 +44,10 @@ public class BrowserDriverSetUp {
         options.addArguments("start-maximixed");
         options.addArguments("incognito");
         if (os.equals("mac")){
-            System.setProperty("webdriver.chrome.driver","/Users/danishbangash/Desktop/QA/JAVA/FrameWork/Utilities/Drivers/Mac/chromedriver");
+            System.setProperty("webdriver.chrome.driver","/Users/danishbangash/Desktop/QA/FrameWork/Utilities/Drivers/Mac/chromedriver");
             driver = new ChromeDriver(options);
         } else if (os.equals("windows")){
-            System.setProperty("webdriver.chrome.driver","/Users/danishbangash/Desktop/QA/JAVA/FrameWork/Utilities/Drivers/Windows/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","/Users/danishbangash/Desktop/QA/FrameWork/Utilities/Drivers/Windows/chromedriver.exe");
             driver = new ChromeDriver(options);
         }
         return driver;
@@ -58,10 +58,10 @@ public class BrowserDriverSetUp {
         options.addArguments("private");
         options.addArguments("ignore-certificate-errors");
         if (os.equals("mac")){
-            System.setProperty("webdriver.gecko.driver", "Drivers/Mac/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "/Users/danishbangash/Desktop/QA/FrameWork/Utilities/Drivers/Mac/geckodriver");
             driver = new FirefoxDriver(options);
         } else if (os.equals("windows")){
-            System.setProperty("webdriver.gecko.driver", "Drivers/Windows/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "/Users/danishbangash/Desktop/QA/FrameWork/Utilities/Drivers/Windows/geckodriver.exe");
             driver = new FirefoxDriver(options);
         }
         return driver;

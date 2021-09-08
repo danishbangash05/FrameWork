@@ -67,7 +67,7 @@ public class NewEmployee {
         login.click();
         pims.click();
         newEmployees.click();
-        employeeCode.sendKeys("emp-111");
+        employeeCode.sendKeys("emp-12345");
         employeeType.click();
         employeeTypeDropDown.click();
         name.sendKeys("abc");
@@ -90,5 +90,7 @@ public class NewEmployee {
         post.click();
         postDropDown.click();
         submitButton.click();
+        String actualValue = submitButton.getText();
+        System.out.println(actualValue);
     }
 }

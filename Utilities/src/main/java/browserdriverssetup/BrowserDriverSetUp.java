@@ -18,10 +18,10 @@ public class BrowserDriverSetUp {
     public static final String url = System.getProperty("url", "http://54.172.98.170:443/");
     public static String browserName = System.getProperty("browserName", "chrome");
     public static String os = System.getProperty("os", "mac");
-    public static String platform = System.getProperty("platform", "local");
+    public static String platform = System.getProperty("platform", "local"); //changed from local to cloud in order to get into cloud
     public static String cloudPlatformName = System.getProperty("cloudPlatformName", "browserstack");
-    public static final String AUTOMATE_USERNAME = System.getProperty("AUTOMATE_USERNAME", "yourusername");
-    public static final String AUTOMATIVE_ACCESS_KEY = System.getProperty("AUTOMATE_ACCESS_KEY", "xxnxn");
+    public static final String AUTOMATE_USERNAME = System.getProperty("AUTOMATE_USERNAME", "danishbangash_rRCuWh");
+    public static final String AUTOMATIVE_ACCESS_KEY = System.getProperty("AUTOMATE_ACCESS_KEY", "WE7vT53aUb3UBUtCce9n");
 
     @BeforeMethod
     public void setUp() throws MalformedURLException {
@@ -68,14 +68,14 @@ public class BrowserDriverSetUp {
     }
     public static WebDriver getDriverForBrowserStack() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("os_version","11.5.2");
-        caps.setCapability("resolution","2048x1536");
+        caps.setCapability("os_version","Big Sur");
+        caps.setCapability("resolution","1920 x 1080");
         caps.setCapability("browser","chrome");
-        caps.setCapability("browser_version","latest-beta");
-        caps.setCapability("os","mac");
+        caps.setCapability("browser_version","92.0");
+        caps.setCapability("os","OS X");
 
         URL remoteAddress;
-        driver = new RemoteWebDriver(new URL("http://" + AUTOMATE_USERNAME + " : " + AUTOMATIVE_ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub"), caps);
+        driver = new RemoteWebDriver(new URL("https://" + AUTOMATE_USERNAME + ":" + AUTOMATIVE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub"),caps);
         return driver;
     }
 

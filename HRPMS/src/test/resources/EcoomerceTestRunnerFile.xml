@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false" >
+    <test name = "HRPMS">
+        <classes>
+            <class name="pageobjectstests.HomePageTest"/>
+<!--            <class name="pageobjectstests.LogOutTest"/>-->
+<!--            <class name="pageobjectstests.NewEmployeeTest"/>-->
+        </classes>
+    </test>
+
+</suite>

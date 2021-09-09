@@ -15,6 +15,18 @@ public class AddBook {
     WebElement library;
     @FindBy(how = How.XPATH,using = "/html/body/div[1]/div/div[1]/div/ul/li[5]/div[1]/a/span")
     WebElement bookList;
+    @FindBy(how = How.ID, using = "categoryId")
+    WebElement categoryName;
+    @FindBy(how = How.XPATH, using = "/html/body/div[1]/div/div[2]/div/div/div/div/div/form/div[2]/div[1]/select/option[3]")
+    WebElement drama;
+    @FindBy(how = How.ID, using = "bookId")
+    WebElement bookId;
+    @FindBy(how = How.ID, using = "bookName")
+    WebElement bookName;
+    @FindBy(how = How.XPATH, using = "/html/body/div[1]/div/div[2]/div/div/div/div/div/form/button")
+    WebElement submit;
+    @FindBy (how = How.XPATH, using = "/html/body/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/table/tbody/tr[1]/td[2]")
+    WebElement humanResources;
 
     public void books() {
         email.sendKeys("admin");
@@ -22,5 +34,14 @@ public class AddBook {
         login.click();
         library.click();
         bookList.click();
+        categoryName.click();
+        drama.click();
+        bookId.sendKeys("111");
+        bookName.sendKeys("Hamza");
+        submit.click();
+    }
+    public String name(){
+        String actual = humanResources.getText();
+        return actual;
     }
 }

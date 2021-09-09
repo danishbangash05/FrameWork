@@ -2,10 +2,10 @@ package pageobjectstests;
 
 import browserdriverssetup.BrowserDriverSetUp;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageobjects.AddBook;
-import pageobjects.HomePage;
 
 public class AddBookTest extends BrowserDriverSetUp {
     AddBook addBook = null;
@@ -17,5 +17,7 @@ public class AddBookTest extends BrowserDriverSetUp {
     @Test
     public void LogInTest(){
         addBook.books();
+        String act = addBook.name();
+        Assert.assertEquals(act, "Hamzi");
     }
 }

@@ -11,11 +11,12 @@ public class HomePageTest extends BrowserDriverSetUp {
 
     @BeforeMethod
     public void initializeElements(){
-        homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage = PageFactory.initElements(driver, HomePage);
     }
     @Test
     public void LogInTest(){
-        homePage.logIn();
+        //homePage.logIn();
+
     }
 //    public void bannerTest(){
 //        homePage.logIn();

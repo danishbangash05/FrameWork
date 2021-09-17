@@ -1,0 +1,13 @@
+pageobjectstests/ActivityPageTest.class
+pageobjects/ActorId.class
+pageobjectstests/ActorIdTests.class
+pageobjectstests/ParallelTest.class
+pageobjects/HomePage.class
+pageobjectstests/HomePageTest.class
+pageobjectstests/LogOutTest.class
+pageobjectstests/AddBookTest.class
+pageobjects/NewEmployee.class
+pageobjects/AddBook.class
+pageobjectstests/NewEmployeeTest.class
+pageobjects/LogOut.class
+pageobjects/ActivityPage.class

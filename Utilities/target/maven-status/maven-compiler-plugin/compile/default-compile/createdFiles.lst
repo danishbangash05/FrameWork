@@ -1,0 +1,5 @@
+reporting/ExtentTestManager.class
+browserdriverssetup/BrowserDriverSetUp.class
+databaseUtilities/DbUtilities.class
+excelreader/DataReader.class
+reporting/ExtentManager.class

@@ -5,16 +5,16 @@
       <![CDATA[Extent Report Directory/Users/danishbangash/Desktop/QA/FrameWork/HRPMS/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-09-16T23:44:25Z" name="Automation Test" finished-at="2021-09-16T23:44:39Z" duration-ms="13961">
+  <suite started-at="2021-09-17T03:14:20Z" name="Automation Test" finished-at="2021-09-17T03:14:40Z" duration-ms="19924">
     <groups>
     </groups>
-    <test started-at="2021-09-16T23:44:25Z" name="HRPMS" finished-at="2021-09-16T23:44:39Z" duration-ms="13961">
+    <test started-at="2021-09-17T03:14:20Z" name="HRPMS" finished-at="2021-09-17T03:14:40Z" duration-ms="19924">
       <class name="pageobjectstests.HomePageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:24Z" name="extentSetup" finished-at="2021-09-16T23:44:25Z" duration-ms="883" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:20Z" name="extentSetup" finished-at="2021-09-17T03:14:20Z" duration-ms="422" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@73e132e0]]>
+                <![CDATA[org.testng.TestRunner@3bb9efbc]]>
               </value>
             </param>
           </params>
@@ -24,11 +24,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:25Z" name="setUp" finished-at="2021-09-16T23:44:31Z" duration-ms="6074" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:20Z" name="setUp" finished-at="2021-09-17T03:14:28Z" duration-ms="8202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:31Z" name="startExtent" finished-at="2021-09-16T23:44:31Z" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:28Z" name="startExtent" finished-at="2021-09-17T03:14:28Z" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,30 +39,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializeElements()[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:31Z" name="initializeElements" finished-at="2021-09-16T23:44:31Z" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="initializeElements()[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:28Z" name="initializeElements" finished-at="2021-09-17T03:14:28Z" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeElements -->
-        <test-method signature="LogInTest()[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:31Z" name="LogInTest" finished-at="2021-09-16T23:44:33Z" duration-ms="2237" status="PASS">
+        <test-method signature="LogInTest()[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:28Z" name="LogInTest" finished-at="2021-09-17T03:14:34Z" duration-ms="6081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:33Z" name="afterEachTestMethod" finished-at="2021-09-16T23:44:34Z" duration-ms="594" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:34Z" name="afterEachTestMethod" finished-at="2021-09-17T03:14:35Z" duration-ms="585" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LogInTest status=SUCCESS method=HomePageTest.LogInTest()[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5] output={null}]]]>
+                <![CDATA[[TestResult name=LogInTest status=SUCCESS method=HomePageTest.LogInTest()[pri:0, instance:pageobjectstests.HomePageTest@27d415d9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:34Z" name="cleanUp" finished-at="2021-09-16T23:44:39Z" duration-ms="5004" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:35Z" name="cleanUp" finished-at="2021-09-17T03:14:40Z" duration-ms="5004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:pageobjectstests.HomePageTest@1786f9d5]" started-at="2021-09-16T23:44:39Z" name="generateReport" finished-at="2021-09-16T23:44:39Z" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:pageobjectstests.HomePageTest@27d415d9]" started-at="2021-09-17T03:14:40Z" name="generateReport" finished-at="2021-09-17T03:14:41Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

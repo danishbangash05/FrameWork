@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.438 sec - in TestSuite
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 119.068 sec <<< FAILURE! - in TestSuite
+logOutTest(pageobjectstests.LogOutTest)  Time elapsed: 3.052 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Danishs-MBP', ip: 'fe80:0:0:0:1887:8520:a890:633%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/6n/jt725dcd73l...}, goog:chromeOptions: {debuggerAddress: localhost:49658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c3e15509de0d282d424c0e6c761e572a
+	at pageobjectstests.LogOutTest.logOutTest(LogOutTest.java:17)
+
+LogInTest(pageobjectstests.AddBookTest)  Time elapsed: 5.585 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Hamzi] but found [Hamza]
+	at pageobjectstests.AddBookTest.LogInTest(AddBookTest.java:21)
+
+masterPmsTest(pageobjectstests.ActivityPageTest)  Time elapsed: 2.87 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#Setting_MasterData"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Danishs-MBP', ip: 'fe80:0:0:0:1887:8520:a890:633%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/6n/jt725dcd73l...}, goog:chromeOptions: {debuggerAddress: localhost:49906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 29b62c7c6f31f0d71de52f1d0ae10c7e
+*** Element info: {Using=id, value=Setting_MasterData}
+	at pageobjectstests.ActivityPageTest.masterPmsTest(ActivityPageTest.java:32)
+

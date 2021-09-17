@@ -5,11 +5,11 @@
     <test name = "HRPMS">
         <classes>
             <class name="pageobjectstests.HomePageTest"/>
-<!--            <class name="pageobjectstests.LogOutTest"/>-->
-<!--            <class name="pageobjectstests.NewEmployeeTest"/>-->
-<!--            <class name="pageobjectstests.AddBookTest"/>-->
-<!--            <class name="pageobjectstests.ActorIdTests"/>-->
-<!--            <class name="pageobjectstests.ActivityPageTest"/>-->
+            <class name="pageobjectstests.LogOutTest"/>
+            <class name="pageobjectstests.NewEmployeeTest"/>
+            <class name="pageobjectstests.AddBookTest"/>
+            <class name="pageobjectstests.ActorIdTests"/>
+            <class name="pageobjectstests.ActivityPageTest"/>
         </classes>
     </test>
 

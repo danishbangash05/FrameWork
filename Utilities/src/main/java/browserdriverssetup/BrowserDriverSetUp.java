@@ -135,8 +135,8 @@ public class BrowserDriverSetUp {
     }
     public static WebDriver getChromeDriver() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximixed");
-        options.addArguments("incognito");
+        options.addArguments("--start-maximixed");
+        options.addArguments("--incognito");
         if (os.equals("mac")){
             System.setProperty("webdriver.chrome.driver","../Utilities/Drivers/Mac/chromedriver");
             driver = new ChromeDriver(options);

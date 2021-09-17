@@ -98,7 +98,7 @@ public class BrowserDriverSetUp {
 
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/Desktop/" + screenshotName + " " + df.format(date) + ".png"));
+            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/pictures/" + screenshotName + " " + df.format(date) + ".png"));
             System.out.println("Screenshot captured");
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot " + e.getMessage());;

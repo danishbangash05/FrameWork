@@ -134,11 +134,11 @@ public class BrowserDriverSetUp {
         driver.get(url);
     }
     public static WebDriver getChromeDriver() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximixed");
-        options.addArguments("incognito");
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("start-maximixed");
+//        options.addArguments("incognito");
         if (os.equals("mac")){
-            System.setProperty("webdriver.chrome.driver","../Utilities/Drivers/Mac/chromedriver");
+            System.setProperty("webdriver.chrome.driver","/Users/danishbangash/Desktop/QA/FrameWork/Utilities/Drivers/Mac/chromedriver");
             driver = new ChromeDriver(options);
         } else if (os.equals("windows")){
             System.setProperty("webdriver.chrome.driver","../Utilities/Drivers/Windows/chromedriver.exe");

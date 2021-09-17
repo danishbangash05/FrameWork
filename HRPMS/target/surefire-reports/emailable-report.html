@@ -9,62 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Automation Test</th></tr>
-<tr><td><a href="#t0">HRPMS</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">3</td><td class="num">117,856</td><td></td><td></td></tr>
+<tr><td><a href="#t0">HRPMS</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">16,268</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HRPMS &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">pageobjectstests.ActivityPageTest</td><td><a href="#m0">masterPmsTest</a></td><td rowspan="1">1631849422108</td><td rowspan="1">2865</td></tr><tr class="failedodd"><td rowspan="1">pageobjectstests.AddBookTest</td><td><a href="#m1">LogInTest</a></td><td rowspan="1">1631849364208</td><td rowspan="1">5584</td></tr><tr class="failedeven"><td rowspan="1">pageobjectstests.LogOutTest</td><td><a href="#m2">logOutTest</a></td><td rowspan="1">1631849330445</td><td rowspan="1">3023</td></tr><tr><th colspan="4">HRPMS &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">pageobjectstests.ActivityPageTest</td><td><a href="#m3">masterPmsTest</a></td><td rowspan="2">1631849382822</td><td rowspan="2">5355</td></tr><tr class="passedeven"><td><a href="#m4">masterPmsTest</a></td></tr><tr class="passedodd"><td rowspan="1">pageobjectstests.ActorIdTests</td><td><a href="#m5">test</a></td><td rowspan="1">1631849375467</td><td rowspan="1">976</td></tr><tr class="passedeven"><td rowspan="1">pageobjectstests.HomePageTest</td><td><a href="#m6">LogInTest</a></td><td rowspan="1">1631849317952</td><td rowspan="1">2871</td></tr><tr class="passedodd"><td rowspan="1">pageobjectstests.NewEmployeeTest</td><td><a href="#m7">LogInTest</a></td><td rowspan="1">1631849342611</td><td rowspan="1">12562</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HRPMS &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pageobjectstests.HomePageTest</td><td><a href="#m0">LogInTest</a></td><td rowspan="1">1631850319371</td><td rowspan="1">3393</td></tr></tbody>
 </table>
-<h2>HRPMS</h2><h3 id="m0">pageobjectstests.ActivityPageTest#masterPmsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Keeper</td><td>Khairul</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#Setting_MasterData&quot;}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Danishs-MBP&apos;, ip: &apos;fe80:0:0:0:1887:8520:a890:633%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/6n/jt725dcd73l...}, goog:chromeOptions: {debuggerAddress: localhost:49906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 29b62c7c6f31f0d71de52f1d0ae10c7e
-*** Element info: {Using=id, value=Setting_MasterData}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at pageobjects.ActivityPage.logIn(ActivityPage.java:34)
-	at pageobjectstests.ActivityPageTest.masterPmsTest(ActivityPageTest.java:32)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">pageobjectstests.AddBookTest#LogInTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Hamzi] but found [Hamza]
-	at pageobjectstests.AddBookTest.LogInTest(AddBookTest.java:21)
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">pageobjectstests.LogOutTest#logOutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=93.0.4577.82)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Danishs-MBP&apos;, ip: &apos;fe80:0:0:0:1887:8520:a890:633%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.4&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/6n/jt725dcd73l...}, goog:chromeOptions: {debuggerAddress: localhost:49658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3e15509de0d282d424c0e6c761e572a
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at pageobjects.LogOut.loggingOut(LogOut.java:28)
-	at pageobjectstests.LogOutTest.logOutTest(LogOutTest.java:17)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">pageobjectstests.ActivityPageTest#masterPmsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Batsmen</td><td>Danish</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">pageobjectstests.ActivityPageTest#masterPmsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Bowler</td><td>Hamza</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">pageobjectstests.ActorIdTests#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">pageobjectstests.HomePageTest#LogInTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">pageobjectstests.NewEmployeeTest#LogInTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>HRPMS</h2><h3 id="m0">pageobjectstests.HomePageTest#LogInTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
